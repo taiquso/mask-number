@@ -51,7 +51,7 @@ export default function Home() {
       <button 
         className="bg-[#F9CDCD] py-5 px-12 text-2xl rounded" 
         onClick={() => {
-          setValue(Math.floor(Math.random() * 10000) + 1)
+          setValue(Math.floor(Math.random() * 1500) + 1)
         }}
       >
         Shuffle Value
